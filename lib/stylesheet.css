@@ -1,0 +1,16 @@
+#wrapper{
+    position: relative;
+    width: 500;
+    height: 500;
+}
+
+.background{
+    position: absolute;
+    z-index: -100;
+}
+
+.content{
+    position: absolute;
+    margin: 20px;
+    z-index: 100;
+}

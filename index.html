@@ -8,10 +8,12 @@
     <script src="./lib/myJs.js"></script>
     <script src="./lib/jquery-ui.js"></script>
     <link href="./lib/jquery-ui.css" rel="stylesheet">
+    <link href="lib/stylesheet.css" rel="stylesheet">
 </head>
     
-<body onload="init()" style="margin: 20px">
-    <div id="tabs">
+<body onload="init()">
+    <div id="wrapper">
+    <div id="tabs" class="content">
         <ul>
             <li><a href="#firstThird">1-3 Klasse</a></li>
             <li><a href="#secondThird">4-6 Klasse</a></li>
@@ -20,7 +22,7 @@
         <div class="accordion" id="firstThird">
             <h3>Uni-Login</h3>
                 <div class="accordion">
-                    <h3>Blive dus med uni-login</h3>
+                    <h3 onclick="">Blive dus med uni-login</h3>
                         <div>Åbner for dimsen</div>
                     <h3>Kendskab til skolens bærbare udstyr</h3>
                         <div>Åbner for dimsen</div>
@@ -48,6 +50,8 @@
         </div>
     </div>
     
+    <canvas id="canvas" class="background" width="900" height="600" style="border: black solid 1px"></canvas>
+    </div>
 <script>
 
 $( ".accordion" ).accordion();
