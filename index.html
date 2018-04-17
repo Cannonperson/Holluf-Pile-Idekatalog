@@ -4,17 +4,155 @@
 	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
 	<script src="./lib/easeljs-0.8.2.min.js"></script>
 	<script src="./lib/tweenjs-0.5.1.min.js"></script>
+    <script src="./lib/external/jquery/jquery.js"></script>
     <script src="./lib/myJs.js"></script>
-    </head>
+    <script src="./lib/jquery-ui.js"></script>
+    <link href="./lib/jquery-ui.css" rel="stylesheet">
+</head>
     
-    <body onload="init()" style="margin: 20px">
-    	<h1>
-	   	KÆFT DET ER FED DET HER GIT FIS
-	   </h1>
-	   <div>
-	   	Denne side består af cirkler... Cirkler er nice fordi de automatisk får en underviser til at forstå hvad der står indeni cirklen.. Ud over at være smart ligner de også noget fra 2006 hvilket var en fantastisk tid hvor dak musik, hardstyle, BOTEN ANNA, lange hængerøvsbukser, hættetrøjer fra Quint, bluetooth mobiltelefoner og shuffel/hardstyle dans var THE SHIT!!! Alt man behøvede var en tunet PGO hot 50!!! Tidsmaskiner eksisterer og disse cirkler er beviset! Sebastian har i virkeligheden opfundet en tidsmaskine!
-	   </div>
-	   <canvas id="canvas" width="800" height="600" style="border: black solid 1px"></canvas>
-	   
-    </body>
+<body onload="init()" style="margin: 20px">
+    <div id="tabs">
+        <ul>
+            <li><a href="#firstThird">1-3 Klasse</a></li>
+            <li><a href="#secondThird">4-6 Klasse</a></li>
+            <li><a href="#thirdThird">7-9 Klasse</a></li>
+        </ul>
+        <div class="accordion" id="firstThird">
+            <h3>Uni-Login</h3>
+                <div class="accordion">
+                    <h3>Blive dus med uni-login</h3>
+                        <div>Åbner for dimsen</div>
+                    <h3>Kendskab til skolens bærbare udstyr</h3>
+                        <div>Åbner for dimsen</div>
+                </div>
+            <h3>Digital produktion/præsentation</h3>
+                <div>Phasellus mattis tincidunt nibh.</div>
+            <h3>Programmering</h3>
+                <div>Nam dui erat, auctor a, dignissim quis.</div>
+        </div>
+        <div class="accordion" id="secondThird">
+            <h3>First</h3>
+                <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
+            <h3>Second</h3>
+                <div>Phasellus mattis tincidunt nibh.</div>
+            <h3>Third</h3>
+                <div>Nam dui erat, auctor a, dignissim quis.</div>
+        </div>
+        <div class="accordion" id="thirdThird">
+            <h3>First</h3>
+                <div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
+            <h3>Second</h3>
+                <div>Phasellus mattis tincidunt nibh.</div>
+            <h3>Third</h3>
+                <div>Nam dui erat, auctor a, dignissim quis.</div>
+        </div>
+    </div>
+    
+<script>
+
+$( ".accordion" ).accordion();
+
+
+
+var availableTags = [
+	"JavaScript"
+];
+$( "#autocomplete" ).autocomplete({
+	source: availableTags
+});
+
+
+
+$( "#button" ).button();
+$( "#button-icon" ).button({
+	icon: "ui-icon-gear",
+	showLabel: false
+});
+
+
+
+$( "#radioset" ).buttonset();
+
+
+
+$( "#controlgroup" ).controlgroup();
+
+
+
+$( "#tabs" ).tabs();
+
+
+
+$( "#dialog" ).dialog({
+	autoOpen: false,
+	width: 400,
+	buttons: [
+		{
+			text: "Ok",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		},
+		{
+			text: "Cancel",
+			click: function() {
+				$( this ).dialog( "close" );
+			}
+		}
+	]
+});
+
+// Link to open the dialog
+$( "#dialog-link" ).click(function( event ) {
+	$( "#dialog" ).dialog( "open" );
+	event.preventDefault();
+});
+
+
+
+$( "#datepicker" ).datepicker({
+	inline: true
+});
+
+
+
+$( "#slider" ).slider({
+	range: true,
+	values: [ 17, 67 ]
+});
+
+
+
+$( "#progressbar" ).progressbar({
+	value: 20
+});
+
+
+
+$( "#spinner" ).spinner();
+
+
+
+$( "#menu" ).menu();
+
+
+
+$( "#tooltip" ).tooltip();
+
+
+
+$( "#selectmenu" ).selectmenu();
+
+
+// Hover states on the static widgets
+$( "#dialog-link, #icons li" ).hover(
+	function() {
+		$( this ).addClass( "ui-state-hover" );
+	},
+	function() {
+		$( this ).removeClass( "ui-state-hover" );
+	}
+);
+</script>
+</body>
 </html>
