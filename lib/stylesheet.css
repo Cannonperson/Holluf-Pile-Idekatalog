@@ -14,3 +14,16 @@
     margin: 60px;
     z-index: 100;
 }
+.reset {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+.autowrap{
+    width:40%;
+}
