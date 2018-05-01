@@ -3,6 +3,11 @@
     width: 500;
     height: 500;
 }
+#wrapper2{
+    position: relative;
+    width: 200;
+    height: 500;
+}
 
 .background{
     position: absolute;
@@ -26,4 +31,11 @@
 }
 .autowrap{
     width:40%;
+}
+.border-popup {
+    position: relative;
+    top: 400px; left: 400px;
+	border: 1px solid #dddddd;
+	background: #fff7dd;
+	color: #333333;
 }
