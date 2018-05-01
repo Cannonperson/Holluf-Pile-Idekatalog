@@ -1,4 +1,4 @@
-{"firstThird":[
+var data = {classes:[{"firstThird":[
     {"overEmne":"Uni-Login","underEmneOverskrift":["Blive dus med uni-login","Kendskab til skolens bærbare udstyr"],"underEmneIndhold":["Beskrivelse af indhold, Google drev","Beskrivelse af indhold, Chromebooks og iPads"]},
     
     {"overEmne":"Digital Produktion/Præsentation","underEmneOverskrift":["Producere egne regnehistorier","Historiefortælling" ],"underEmneIndhold":["Beskrivelse af indhold, FotoMat","beskrivelse af indhold, iPad app- Adventure Time Game Wizard"]},
@@ -10,9 +10,9 @@
     {"overEmne":"Kreativitet/Design","underEmneOverskrift":["Historiefortælling"],"underEmneIndhold":["Beskrivelse af indhold, iPad Stop Motion"]},
     
     {"overEmne":"Teknologi Brug","underEmneOverskrift":["Fortæller træning / Dansk-Engelsk","Arbejde med geometri"],"underEmneIndhold":["Beskrivelse af indhold, iPads - VR","Beskrivelse af indhold, Geogebra"]}
-    ],
+    ]},
  
- "secondThird":[
+ {"secondThird":[
      {"overEmne":"Programmering","underEmneOverskrift":["Præsenter en forfatter","Fra hjrte til temperaturføler","Lav et spil (analog/digital)"],"underEmneIndhold":["Beskrivelse af indhold, Scratch","Beskrivelse af indhold, Micro:bit","Beskrivelse af indhold, Scratch"]},
     
      {"overEmne":"Kreativitet","underEmneOverskrift":["Lav din egen musik","Lav en film(lommefilm)"],"underEmneIndhold":["Beskrivelse af indhold, Soundation", "Beskrivelse af indhold, Wevideo/youtube"]},
@@ -24,9 +24,9 @@
      {"overEmne":"Problemløsning/Samarbejde","underEmneOverskrift":["Viarbejder med miljø og Samarbejde","Flytninger i matematik"],"underEmneIndhold":["Beskrivelse af indhold, Lego Mindstorms/EV3", "Beskrivelse af indhold, Geogebra"]},
 
      {"overEmne":"Dataopsamling","underEmneOverskrift":["Løb-spring-kast"],"underEmneIndhold":["Beskrivelse af indhold, Googlesheets"]}   
- ],
+ ]},
  
-"thirdThird":[
+{"thirdThird":[
     {"overEmne":"Kommunikation","underEmneOverskrift":["Jeg skal tale fremmedsprog","Hvis elever har problemer med at tale i det åbne rum", "Vi skal lave bevægelsesannalyse i idræt"],"underEmneIndhold":["Beskrivelse af indhold, Vlog", "Beskrivelse af indhold, Soundation, Soundcloud","Beskrivelse af indhold, Technique"]},
      
     {"overEmne":"Produktion","underEmneOverskrift":["Arbejde med film med udskiftelig baggrund","Vi skal lave film"],"underEmneIndhold":["Beskrivelse af indhold, GreenScreen","Beskrivelse af indhold, MyFilm, Film-X"]},
@@ -35,8 +35,8 @@
     
     {"overEmne":"Programmering","underEmneOverskrift":["Lav din egen app"],"underEmneIndhold":["Beskrivelse af indhold, Appshed"]}
     
-]
- 
+]}
+ ]
           
 }
 
