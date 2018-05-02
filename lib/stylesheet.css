@@ -34,7 +34,7 @@
 }
 .border-popup {
     position: relative;
-    top: 400px; left: 400px;
+    top: 250px; left: 600px;
 	border: 1px solid #dddddd;
 	background: #fff7dd;
 	color: #333333;
