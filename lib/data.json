@@ -1,17 +1,24 @@
 var data = {classes:[{"emner":[
-    {"overEmne":"Uni-Login","underEmneOverskrift":["Blive dus med uni-login","Kendskab til skolens bærbare udstyr"],"underEmneIndhold":["Beskrivelse af indhold, Google drev","Beskrivelse af indhold, Chromebooks og iPads"]},
+    {"overEmne":"Uni-Login","emneOverskrift":"Blive dus med uni-login","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Google drev"]},
     
-    {"overEmne":"Digital Produktion/Præsentation","underEmneOverskrift":["Producere egne regnehistorier","Historiefortælling" ],"underEmneIndhold":["Beskrivelse af indhold, FotoMat","beskrivelse af indhold, iPad app- Adventure Time Game Wizard"]},
+    {"overEmne":"Uni-Login","emneOverskrift":"Kendskab til skolens bærbare udstyr","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Chromebooks og iPads"]},
     
-    {"overEmne":"Programmering","underEmneOverskrift":["Kendskab til blokprogrammering","Historiefortælling","Lær koordinatsystem at kende"],"underEmneIndhold":["Beskrivelse af indhold, Scratch - Micro:bit - dash&Dot","Beskrivelse af indhold,Puppet Pals/Book Creator", " Beskrivelse af indhold, Dash & Dot"]},
+    {"overEmne":"Digital Produktion/Præsentation","emneOverskrift":"Producere egne regnehistorier","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Fotomat"]},
     
-    {"overEmne":"Kreativitet/Kommunikationsform","underEmneOverskrift":["Interwiev/Journalistik/Tv"],"underEmneIndhold":["Beskrivelse af indhold, iPads - Green Screen by Dolnk"]},
+    {"overEmne":"Digital Produktion/Præsentation","emneOverskrift":"Historiefortælling","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["ipad app- Adventure Time Game Wizard"]},
     
-    {"overEmne":"Kreativitet/Design","underEmneOverskrift":["Historiefortælling"],"underEmneIndhold":["Beskrivelse af indhold, iPad Stop Motion"]},
+    {"overEmne":"Programmering","emneOverskrift":"Kendskab til blokprogrammering","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Scratch", "Micro:bit", "Dash & Dot"]},
     
-    {"overEmne":"Teknologi Brug","underEmneOverskrift":["Fortæller træning / Dansk-Engelsk","Arbejde med geometri"],"underEmneIndhold":["Beskrivelse af indhold, iPads - VR","Beskrivelse af indhold, Geogebra"]}
+    {"overEmne":"Programmering","emneOverskrift":"Historiefortælling","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Puppet Pals/Book Creator"]},
+    
+    {"overEmne":"Programmering","emneOverskrift":"Lær koordinatsystem at kende","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Dash & Dot"]},
+    
+    {"overEmne":"Kreativitet/Kommunikationsform","emneOverskrift":"Interwiev/Journalistik/Tv","emneBeskrivelse":"Beskrivelse af indhold", "emneLinks":["iPads","Green Screen by Dolnk"]},
+    
+    {"overEmne":"Teknologi Brug","emneOverskrift":"Fortæller træning / Dansk-Engelsk","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["ipads", "VR"]},
+    
+    {"overEmne":"Teknologi Brug","emneOverskrift":"Arbejde med geometri","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":"Geogebra"},
     ]},
- 
  {"emner":[
      {"overEmne":"Programmering","underEmneOverskrift":["Præsenter en forfatter","Fra hjrte til temperaturføler","Lav et spil (analog/digital)"],"underEmneIndhold":["Beskrivelse af indhold, Scratch","Beskrivelse af indhold, Micro:bit","Beskrivelse af indhold, Scratch"]},
     
