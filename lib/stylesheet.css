@@ -11,8 +11,10 @@
 
 .background{
     position: absolute;
-    z-index: -100;
+    
 }
+.hide{
+    visibility: hidden}
 
 .content{
     position: absolute;
