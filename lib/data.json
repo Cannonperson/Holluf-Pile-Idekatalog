@@ -2,7 +2,7 @@
 //{"overEmne":"ERSTAT","emneOverskrift":"ERSTAT","emneBeskrivelse":"ERSTAT","emneLinks":["ERSTAT"]},
 
 var data = {classes:[{"emner":[
-    {"overEmne":"Uni-Login","emneOverskrift":"Blive dus med uni-login","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Google drev"]},
+    {"overEmne":"Uni-Login","emneOverskrift":"Blive dus med uni-login","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["https://cannonperson.tumblr.com"]},
     
     {"overEmne":"Uni-Login","emneOverskrift":"Kendskab til skolens bærbare udstyr","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Chromebooks og iPads"]},
     
