@@ -11,15 +11,20 @@
     <script src="./lib/data.json"></script>
     <link href="./lib/jquery-ui.css" rel="stylesheet">
     <link href="lib/stylesheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
     
 <body onload="init()">
-    <nav id="nav-1">
-  <a class="link-1" href="#">Fyldtekst1</a>
-  <a class="link-1" href="#">Fyldtekst2</a>
-  <a class="link-1" href="#">Fyldtekst3</a>
-  <a class="link-1" href="#">Fyldtekst4</a>
-</nav>
+<header>
+	<nav id="nav-1">
+  		<a class="link-1" href="#">Fyldtekst1</a>
+  		<a class="link-1" href="#">Fyldtekst2</a>
+  		<a class="link-1" href="#">Fyldtekst3</a>
+  		<a class="link-1" href="#">Fyldtekst4</a>
+	</nav>
+</header>
+
+<section class "maincontent">
     <div id="wrapper">
     <div id="tabs" class="content">
         <ul>
@@ -38,17 +43,25 @@
 
     <canvas id="canvas" class="background" width=Window.innerwidth height=window.innerheight style="border: black solid 1px"></canvas>
     </div>
+</section>
+
+    <footer class="footer"><center>
+    	<div class="footerwrapper">
+    		<nav>
+    			<ul>
+    				<li><a href="#"> LEFT </a></li>
+    				<li><a href="#"> CENTER </a></li>
+    				<li><a href="#"> RIGHT </a></li>
+    			</ul>
+    		</nav>	
+   		 </div>
+    </footer></center>
+    
+
 </body>
     
-    <footer>
-    <p class="left">Left aligned text here<br />Next line here</p>
-    <p class="right">Right aligned text here<br />Next line here</p>
-    <p class="centered">Center Text here<br />Next line here</p>
-</footer>
+    
 <script>
-
-
-
 
 var availableTags = [
 	"JavaScript"
@@ -57,98 +70,8 @@ $( "#autocomplete" ).autocomplete({
 	source: availableTags
 });
 
-
-
-$( "#button" ).button();
-$( "#button-icon" ).button({
-	icon: "ui-icon-gear",
-	showLabel: false
-});
-
-
-
-$( "#radioset" ).buttonset();
-
-
-
-$( "#controlgroup" ).controlgroup();
-
-
-
 $( "#tabs" ).tabs();
 
-
-
-$( "#dialog" ).dialog({
-	autoOpen: false,
-	width: 400,
-	buttons: [
-		{
-			text: "Ok",
-			click: function() {
-				$( this ).dialog( "close" );
-			}
-		},
-		{
-			text: "Cancel",
-			click: function() {
-				$( this ).dialog( "close" );
-			}
-		}
-	]
-});
-
-// Link to open the dialog
-$( "#dialog-link" ).click(function( event ) {
-	$( "#dialog" ).dialog( "open" );
-	event.preventDefault();
-});
-
-
-
-$( "#datepicker" ).datepicker({
-	inline: true
-});
-
-
-
-$( "#slider" ).slider({
-	range: true,
-	values: [ 17, 67 ]
-});
-
-
-
-$( "#progressbar" ).progressbar({
-	value: 20
-});
-
-
-
-$( "#spinner" ).spinner();
-
-
-
-$( "#menu" ).menu();
-
-
-
-$( "#tooltip" ).tooltip();
-
-
-
-$( "#selectmenu" ).selectmenu();
-
-
-// Hover states on the static widgets
-$( "#dialog-link, #icons li" ).hover(
-	function() {
-		$( this ).addClass( "ui-state-hover" );
-	},
-	function() {
-		$( this ).removeClass( "ui-state-hover" );
-	}
-);
 </script>
  
 </html>
