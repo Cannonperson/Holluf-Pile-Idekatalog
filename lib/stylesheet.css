@@ -3,11 +3,6 @@
     width: 500;
     height: 500;
 }
-.wrapper2{
-    position: relative;
-    width: 600;
-    height: 500;
-}
 
 .background{
     position: absolute;
@@ -21,24 +16,41 @@
     margin: 60px;
     z-index: 100;
 }
-.reset {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 5px 0px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
+/* vores inderste knap*/
+.btn {
+  background: #c9c9ff;
+  background-image: -webkit-linear-gradient(top, #c9c9ff, #2980b9);
+  background-image: -moz-linear-gradient(top, #c9c9ff, #2980b9);
+  background-image: -ms-linear-gradient(top, #c9c9ff, #2980b9);
+  background-image: -o-linear-gradient(top, #c9c9ff, #2980b9);
+  background-image: linear-gradient(to bottom, #c9c9ff, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
 .autowrap{
     width:40%;
 }
 .border-popup {
     position: relative;
-    top: 250px; left: 600px;
+    top: 150;   left: 600px; margin: 60px;
 	border: 1px solid #dddddd;
-	background: #fff7dd;
+	background: #c9c9ff;
 	color: #333333;
 }
 footer { 
