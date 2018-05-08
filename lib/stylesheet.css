@@ -33,24 +33,27 @@ body{
 }
 /* vores inderste knap*/
 .btn {
-  background: #c9c9ff;
+  background: #5eff86;
+  /*
   background-image: -webkit-linear-gradient(top, #c9c9ff, #2980b9);
   background-image: -moz-linear-gradient(top, #c9c9ff, #2980b9);
   background-image: -ms-linear-gradient(top, #c9c9ff, #2980b9);
   background-image: -o-linear-gradient(top, #c9c9ff, #2980b9);
   background-image: linear-gradient(to bottom, #c9c9ff, #2980b9);
+  */
+  opacity: 0.8;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #ffffff;
+  border-radius: 10px;
+  font-family: Roboto;
+  color: #f6f6f6;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: #5eff86;  
   background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
   background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
@@ -65,7 +68,7 @@ body{
     position: relative;
     top: 150;   left: 600px; margin: 60px;
 	border: 1px solid #dddddd;
-	background: #c9c9ff;
+	background: #5eff86;
 	color: #333333;
 }
 
@@ -76,21 +79,20 @@ body{
   margin-top: 0px;
   padding: 24px;
   text-align: center;
-  font-family: Raleway;
 
 }
 #nav-1 {
-  background: #c9c9ff;
+  background: #5eff86;
 }
 
 .link-1 {
   transition: 0.3s ease;
-  background: #c9c9ff;
+  background: #5eff86;
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
-  border-top: 4px solid #c9c9ff;
-  border-bottom: 4px solid #c9c9ff;
+  border-top: 4px solid #5eff86;
+  border-bottom: 4px solid #5eff86;
   padding: 20px 0;
   margin: 0 20px;
 }
@@ -104,7 +106,7 @@ footer{
     width: 100%;
     margin-top: 0px;
     padding: 24px;
-    background: #c9c9ff;
+    background: #5eff86;
     padding: 20px 0px; 
     text-align: center;
     position: relative;       
