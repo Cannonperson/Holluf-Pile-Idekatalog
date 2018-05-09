@@ -44,7 +44,7 @@ var data = {classes:[{"emner":[
      {"overEmne":"Kommunikation","emneOverskrift":"Evaluering af fagligt forløb","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Go Animate"]},
      
      
-     {"overEmne":"Problemløsning/Samarbejde","emneOverskrift":"Viarbejder med miljø og Samarbejde","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Lego Mindstorms","EV3"]},
+     {"overEmne":"Problemløsning/Samarbejde","emneOverskrift":"Vi arbejder med miljø og Samarbejde","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Lego Mindstorms","EV3"]},
      
      {"overEmne":"Problemløsning/Samarbejde","emneOverskrift":"Flytninger i matematik","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Geogebra"]},
      
@@ -56,7 +56,7 @@ var data = {classes:[{"emner":[
     
     {"overEmne":"Kommunikation","emneOverskrift":"Hvis elever har problemer med at tale i det åbne rum","emneBeskrivelse":"ERSTAT","emneLinks":["Soundation", "Soundcloud"]},
     
-    {"overEmne":"Kommunikation","emneOverskrift":"Vi skal lave bevægelsesannalyse i idræt","emneBeskrivelse":"ERSTAT","emneLinks":["Technique"]},
+    {"overEmne":"Kommunikation","emneOverskrift":"Vi skal lave bevægelsesanalyse i idræt","emneBeskrivelse":"ERSTAT","emneLinks":["Technique"]},
     
     {"overEmne":"Produktion","emneOverskrift":"Arbejde med film med udskiftelig baggrund","emneBeskrivelse":"ERSTAT","emneLinks":["GreenScreen"]},
     
