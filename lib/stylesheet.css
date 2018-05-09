@@ -38,11 +38,11 @@ body{
   background: #6fee6f;
   border-radius: 5px;
   border-style: none;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 5px;
   color: "black";
   font-size: 20px;
-  padding: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
   text-decoration: none;
 }
 
@@ -80,6 +80,7 @@ body{
   background: #3fbe3f;
   color: #ffffff;
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
   border-top: 4px solid #3fbe3f;
   border-bottom: 4px solid #3fbe3f;
