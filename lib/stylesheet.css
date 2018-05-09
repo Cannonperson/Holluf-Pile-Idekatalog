@@ -31,20 +31,23 @@ body{
     margin: 60px;
     z-index: 100;
 }
+
 /* vores inderste knap*/
 .btn {
-  background: #3fbe3f;
-  opacity: 0.8;
+  width: 100%;
+  background: #6fee6f;
   border-radius: 5px;
+  border-style: none;
   font-family: Roboto;
-  color: #f6f6f6;
+  margin-bottom: 5px;
+  color: "black";
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
   text-decoration: none;
 }
 
 .btn:hover {
-    background: #5eff86;
+    background: #6fee6f;
     color: #020202
 }
 .autowrap{
@@ -67,17 +70,17 @@ body{
 
 }
 #nav-1 {
-  background: #5eff86;
+  background: #3fbe3f;
 }
 
 .link-1 {
   transition: 0.3s ease;
-  background: #5eff86;
+  background: #3fbe3f;
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
-  border-top: 4px solid #5eff86;
-  border-bottom: 4px solid #5eff86;
+  border-top: 4px solid #3fbe3f;
+  border-bottom: 4px solid #3fbe3f;
   padding: 20px 0;
   margin: 0 20px;
 }
