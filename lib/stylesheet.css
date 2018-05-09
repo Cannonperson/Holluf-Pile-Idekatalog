@@ -15,8 +15,8 @@ body{
 
 #wrapper{
     position: relative;
-    width: 500;
-    height: 500;
+    width: 50%;
+    height: inherit;
 }
 
 .background{
@@ -47,7 +47,7 @@ body{
 }
 
 .btn:hover {
-    background: #6fee6f;
+    background: #7fff7f;
     color: #020202
 }
 .autowrap{
@@ -55,10 +55,12 @@ body{
 }
 .border-popup {
     position: relative;
-    top: 150;   left: 600px; margin: 60px;
-	border: 1px solid #dddddd;
-	background: #5eff86;
-	color: #333333;
+    border-radius: 5px;
+    top: 150;   left: 100%; margin: 60px;
+    text-align: center;
+	border: 1px solid #6fee6f;
+	background: #7fff7f;
+	color: #2d2d2d;
 }
 
 /*----------Header----------*/
