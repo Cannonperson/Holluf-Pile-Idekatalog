@@ -3,10 +3,10 @@ html{
   height: 100%;
 }
 body{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 .maincontent{
   flex-grow: 1;
@@ -17,22 +17,22 @@ body{
 }
 
 #wrapper{
-    position: relative;
-    width: 50%;
-    height: inherit;
+  position: relative;
+  width: 50%;
+  height: inherit;
 }
 
 .background{
-    position: absolute;
+  position: absolute;
     
 }
 .hide{
-    visibility: hidden}
+  visibility: hidden}
 
 .content{
-    position: absolute;
-    margin: 60px;
-    z-index: 100;
+  position: absolute;
+  margin: 60px;
+  z-index: 100;
 }
 
 /* vores inderste knap*/
@@ -47,16 +47,16 @@ body{
   font-size: 20px;
   padding: 5px 5px 5px 5px;
   text-decoration: none;
-    cursor: pointer;
-    
+  cursor: pointer;
+  box-shadow .15s ease-in-out
 }
 
 .btn:hover {
-    background: #7fff7f;
-    color: #020202
+  background: #7fff7f;
+  color: #020202
 }
 .autowrap{
-    width:40%;
+  width:40%;
 }
 .border-popup {
     position: relative;
@@ -68,7 +68,10 @@ body{
 	border: 1px solid #6fee6f;
 	background: #7fff7f;
 	color: #2d2d2d;
+  box-shadow: 0 0 25px rgba(40, 47, 60, 0.05), 0 20px 25px rgba(40, 47, 60, 0.05), 0 3px 4px rgba(40, 47, 60, 0.05);
+  opacity: 0.9;
 }
+   
 
 .logo{
     width:100%;
@@ -104,7 +107,6 @@ body{
     width:65px;
     height: 65px;
     opacity: 1;
-    position:fixed;
     z-index: 10;
 }
 
@@ -135,38 +137,7 @@ body{
   border-bottom: 4px solid #ffffff;
   padding: 6px 0; 
 }
-/*----------Footer----------*/
-footer{   
-    width: 100%;
-    margin-top: 0px;
-    padding: 24px;
-    background: #5eff86;
-    padding: 20px 0px; 
-    text-align: center;
-    position: relative;       
-}
 
-footer nav {
-float: Center;
- }
-
-
-footer nav ul {
- 
- }
-footer nav ul li {
-  display: inline-block;
-  margin-left: 20px;
-  list-style: none;
-
-  
- }
-footer nav ul li a {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 12px;
-  color: White;
-}
 
 #canvas{
     margin: 0;
