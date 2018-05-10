@@ -73,7 +73,7 @@ body{
     background-image: url("images/holluflogo.PNG");
     background-position: center;
     background-repeat: no-repeat;  
-    position:absolute;
+    position:fixed;
     z-index: -10;
 }
 
