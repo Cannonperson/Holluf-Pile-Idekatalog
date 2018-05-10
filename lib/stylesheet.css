@@ -43,7 +43,7 @@ body{
   border-style: none;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 5px;
-  color: "black";
+  color: white;
   font-size: 20px;
   padding: 5px 5px 5px 5px;
   text-decoration: none;
@@ -65,13 +65,15 @@ body{
     top: 150; margin: 60px;
     width: 50%;
     text-align: center;
-	border: 1px solid #6fee6f;
-	background: #7fff7f;
-	color: #2d2d2d;
+    border: 1px solid #ddffdd;
+	 background: #ddffdd;
+   opacity: 0.9;
+	 color: black;
   box-shadow: 0 0 25px rgba(40, 47, 60, 0.05), 0 20px 25px rgba(40, 47, 60, 0.05), 0 3px 4px rgba(40, 47, 60, 0.05);
-  opacity: 0.9;
 }
-   
+.border-popup a {
+  color: black;
+}
 
 .logo{
     width:100%;
