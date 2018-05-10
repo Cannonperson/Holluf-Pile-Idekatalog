@@ -43,12 +43,11 @@ body{
   border-style: none;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 5px;
-  color: white;
+  color: black;
   font-size: 20px;
   padding: 5px 5px 5px 5px;
   text-decoration: none;
   cursor: pointer;
-  box-shadow .15s ease-in-out
 }
 
 .btn:hover {
@@ -62,10 +61,10 @@ body{
     position: relative;
     float: right;
     border-radius: 5px;
-    top: 150; margin: 60px;
+    top: 52; margin: 60px;
     width: 40%;
     text-align: center;
-    border: 1px solid #ddffdd;
+    
 	 background: #ddffdd;
    opacity: 0.9;
 	 color: black;
@@ -73,6 +72,22 @@ body{
 }
 .border-popup a {
   color: black;
+}
+.border-popup .boks{
+  width: 100%;
+  background: #3fbe3f;
+  border-radius: 5px 5px 0px 0px;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight:normal;
+
+}
+.border-popup .pboks {
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .logo{
