@@ -89,7 +89,10 @@ body{
 
 #contact-list{
     list-style: none;
-    
+}
+
+#linkList{
+    list-style: none;
 }
 
 .logoHjornet{
