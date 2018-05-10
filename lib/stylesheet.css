@@ -77,6 +77,21 @@ body{
     z-index: -10;
 }
 
+#contact-list li img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#contact-list li{
+    clear: left;
+}
+
+#contact-list{
+    list-style: none;
+    
+}
+
 /*----------Header----------*/
 #nav-1 {
   margin-top: 0px;
