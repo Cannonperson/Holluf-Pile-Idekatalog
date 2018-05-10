@@ -63,7 +63,7 @@ body{
     float: right;
     border-radius: 5px;
     top: 150; margin: 60px;
-    width: 50%;
+    width: 40%;
     text-align: center;
     border: 1px solid #ddffdd;
 	 background: #ddffdd;
@@ -98,7 +98,10 @@ body{
 
 #contact-list{
     list-style: none;
-    
+}
+
+#linkList{
+    list-style: none;
 }
 
 .logoHjornet{
