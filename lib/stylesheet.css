@@ -12,6 +12,8 @@ body{
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis:  auto;
+  width: 100%;
+   
 }
 
 #wrapper{
@@ -57,10 +59,12 @@ body{
   width:40%;
 }
 .border-popup {
-  position: relative;
-  border-radius: 5px;
-  top: 150;   left: 100%; margin: 60px;
-  text-align: center;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    top: 150; margin: 60px;
+    width: 50%;
+    text-align: center;
 	border: 1px solid #6fee6f;
 	background: #7fff7f;
 	color: #2d2d2d;
@@ -70,14 +74,40 @@ body{
    
 
 .logo{
-  width:100%;
-  height: 100%;
-  opacity: 0.1;
-  background-image: url("images/holluflogo.PNG");
-  background-position: center;
-  background-repeat: no-repeat;  
-  position:absolute;
-  z-index: -10;
+    width:100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url("images/holluflogo.PNG");
+    background-position: center;
+    background-repeat: no-repeat;  
+    position:fixed;
+    z-index: -10;
+}
+
+#contact-list li img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#contact-list li{
+    clear: left;
+}
+
+#contact-list{
+    list-style: none;
+    
+}
+
+.logoHjornet{
+    margin: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:65px;
+    height: 65px;
+    opacity: 1;
+    z-index: 10;
 }
 
 /*----------Header----------*/
