@@ -77,6 +77,18 @@ body{
     z-index: -10;
 }
 
+.logoHjornet{
+    margin: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:65px;
+    height: 65px;
+    opacity: 1;
+    position:fixed;
+    z-index: 10;
+}
+
 /*----------Header----------*/
 #nav-1 {
   margin-top: 0px;
