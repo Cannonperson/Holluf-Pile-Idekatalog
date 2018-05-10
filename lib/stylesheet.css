@@ -104,7 +104,6 @@ body{
     width:65px;
     height: 65px;
     opacity: 1;
-    position:fixed;
     z-index: 10;
 }
 
