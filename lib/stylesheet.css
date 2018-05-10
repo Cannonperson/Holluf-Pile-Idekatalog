@@ -3,9 +3,10 @@ html{
   height: 100%;
 }
 body{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 .maincontent{
   flex-grow: 1;
@@ -78,11 +79,9 @@ body{
 
 /*----------Header----------*/
 #nav-1 {
-  width: 100%;
   margin-top: 0px;
   padding: 24px;
   text-align: center;
-
 }
 #nav-1 {
   background: #3fbe3f;
@@ -139,6 +138,12 @@ footer nav ul li a {
 }
 
 #canvas{
-    line-height: 1px;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    list-style-type: none;
     position: absolute;
 }
