@@ -2,69 +2,69 @@
 //{"overEmne":"ERSTAT","emneOverskrift":"ERSTAT","emneBeskrivelse":"ERSTAT","emneLinks":["ERSTAT"]},
 
 var data = {classes:[{"emner":[
-    {"overEmne":"Uni-Login","emneOverskrift":"Blive dus med uni-login","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["https://cannonperson.tumblr.com"]},
+    {"overEmne":"Uni-Login","emneOverskrift":"Blive dus med uni-login","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["https://cannonperson.tumblr.com", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Uni-Login","emneOverskrift":"Kendskab til skolens bærbare udstyr","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Chromebooks og iPads"]},
+    {"overEmne":"Uni-Login","emneOverskrift":"Kendskab til skolens bærbare udstyr","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Chromebooks og iPads", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Digital Produktion/Præsentation","emneOverskrift":"Producere egne regnehistorier","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Fotomat"]},
+    {"overEmne":"Digital Produktion/Præsentation","emneOverskrift":"Producere egne regnehistorier","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Fotomat", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Digital Produktion/Præsentation","emneOverskrift":"Historiefortælling","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["ipad app- Adventure Time Game Wizard"]},
+    {"overEmne":"Digital Produktion/Præsentation","emneOverskrift":"Historiefortælling","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["ipad app- Adventure Time Game Wizard", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Programmering","emneOverskrift":"Kendskab til blokprogrammering","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Scratch", "Micro:bit", "Dash & Dot"]},
+    {"overEmne":"Programmering","emneOverskrift":"Kendskab til blokprogrammering","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Scratch", "Micro:bit", "Dash & Dot", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Programmering","emneOverskrift":"Historiefortælling","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Puppet Pals/Book Creator"]},
+    {"overEmne":"Programmering","emneOverskrift":"Historiefortælling","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Puppet Pals/Book Creator", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Programmering","emneOverskrift":"Lær koordinatsystem at kende","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Dash & Dot"]},
+    {"overEmne":"Programmering","emneOverskrift":"Lær koordinatsystem at kende","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Dash & Dot", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Kreativitet/Kommunikationsform","emneOverskrift":"Interwiev/Journalistik/Tv","emneBeskrivelse":"Beskrivelse af indhold", "emneLinks":["iPads","Green Screen by Dolnk"]},
+    {"overEmne":"Kreativitet/Kommunikationsform","emneOverskrift":"Interwiev/Journalistik/Tv","emneBeskrivelse":"Beskrivelse af indhold", "emneLinks":["iPads","Green Screen by Dolnk", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Teknologi Brug","emneOverskrift":"Fortæller træning / Dansk-Engelsk","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["ipads", "VR"]},
+    {"overEmne":"Teknologi Brug","emneOverskrift":"Fortæller træning / Dansk-Engelsk","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["ipads", "VR", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Teknologi Brug","emneOverskrift":"Arbejde med geometri","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":"Geogebra"},
+    {"overEmne":"Teknologi Brug","emneOverskrift":"Arbejde med geometri","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Geogebra", "https://goo.gl/Xwuq4H"]},
     ]},
  {"emner":[
-     {"overEmne":"Programmering","emneOverskrift":"Præsenter en forfatter","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Scratch"]},
+     {"overEmne":"Programmering","emneOverskrift":"Præsenter en forfatter","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Scratch", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Programmering","emneOverskrift":"Fra hjerte til temperaturføler","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Micro:bit"]},
+     {"overEmne":"Programmering","emneOverskrift":"Fra hjerte til temperaturføler","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Micro:bit", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Programmering","emneOverskrift":"Lav et spil (analog/digital)","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Scratch"]},
+     {"overEmne":"Programmering","emneOverskrift":"Lav et spil (analog/digital)","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Scratch", "https://goo.gl/Xwuq4H"]},
     
-     {"overEmne":"Kreativitet","emneOverskrift":"Lav din egen musik","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Soundation"]},
+     {"overEmne":"Kreativitet","emneOverskrift":"Lav din egen musik","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Soundation", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Kreativitet","emneOverskrift":"Lav en film(lommefilm)","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Wevideo/youtube"]},
+     {"overEmne":"Kreativitet","emneOverskrift":"Lav en film(lommefilm)","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Wevideo/youtube", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Præsentation","emneOverskrift":"Vis Hvordan du tænker i matematik","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Screencast-o-matic"]},
+     {"overEmne":"Præsentation","emneOverskrift":"Vis Hvordan du tænker i matematik","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Screencast-o-matic", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Præsentation","emneOverskrift":"Vis dit kunstværk","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Aurasma"]},
+     {"overEmne":"Præsentation","emneOverskrift":"Vis dit kunstværk","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Aurasma", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Præsentation","emneOverskrift":"Præsenter dit vandløb","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Google Sheets","Google Photos"]},
+     {"overEmne":"Præsentation","emneOverskrift":"Præsenter dit vandløb","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Google Sheets","Google Photos", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Kommunikation","emneOverskrift":"Træn din udtale i sprogfagene","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Soundation"]},
+     {"overEmne":"Kommunikation","emneOverskrift":"Træn din udtale i sprogfagene","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Soundation", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Kommunikation","emneOverskrift":"Evaluering af fagligt forløb","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Go Animate"]},
+     {"overEmne":"Kommunikation","emneOverskrift":"Evaluering af fagligt forløb","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Go Animate", "https://goo.gl/Xwuq4H"]},
      
      
-     {"overEmne":"Problemløsning/Samarbejde","emneOverskrift":"Vi arbejder med miljø og Samarbejde","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Lego Mindstorms","EV3"]},
+     {"overEmne":"Problemløsning/Samarbejde","emneOverskrift":"Vi arbejder med miljø og Samarbejde","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Lego Mindstorms","EV3", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Problemløsning/Samarbejde","emneOverskrift":"Flytninger i matematik","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Geogebra"]},
+     {"overEmne":"Problemløsning/Samarbejde","emneOverskrift":"Flytninger i matematik","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Geogebra", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Dataopsamling","emneOverskrift":"Løb-spring-kast","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Googlesheets"]}   
+     {"overEmne":"Dataopsamling","emneOverskrift":"Løb-spring-kast","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Googlesheets", "https://goo.gl/Xwuq4H"]}   
  ]},
  
 {"emner":[
-    {"overEmne":"Kommunikation","emneOverskrift":"Jeg skal tale fremmedsprog","emneBeskrivelse":"ERSTAT","emneLinks":["Vlog"]},
+    {"overEmne":"Kommunikation","emneOverskrift":"Jeg skal tale fremmedsprog","emneBeskrivelse":"ERSTAT","emneLinks":["Vlog", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Kommunikation","emneOverskrift":"Hvis elever har problemer med at tale i det åbne rum","emneBeskrivelse":"ERSTAT","emneLinks":["Soundation", "Soundcloud"]},
+    {"overEmne":"Kommunikation","emneOverskrift":"Hvis elever har problemer med at tale i det åbne rum","emneBeskrivelse":"ERSTAT","emneLinks":["Soundation", "Soundcloud", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Kommunikation","emneOverskrift":"Vi skal lave bevægelsesanalyse i idræt","emneBeskrivelse":"ERSTAT","emneLinks":["Technique"]},
+    {"overEmne":"Kommunikation","emneOverskrift":"Vi skal lave bevægelsesanalyse i idræt","emneBeskrivelse":"ERSTAT","emneLinks":["Technique", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Produktion","emneOverskrift":"Arbejde med film med udskiftelig baggrund","emneBeskrivelse":"ERSTAT","emneLinks":["GreenScreen"]},
+    {"overEmne":"Produktion","emneOverskrift":"Arbejde med film med udskiftelig baggrund","emneBeskrivelse":"ERSTAT","emneLinks":["GreenScreen", "https://goo.gl/Xwuq4H"]},
     
-    {"overEmne":"Produktion","emneOverskrift":"Vi skal lave film","emneBeskrivelse":"ERSTAT","emneLinks":["MyFilm", "Film-X"]},
+    {"overEmne":"Produktion","emneOverskrift":"Vi skal lave film","emneBeskrivelse":"Her finder du Links til MyFilm som kan bruges til bla bla bla, samt Film-X som kan bruges til blah blah blah. Nederst finde du et google link der fører til et googledocs dokument omhandlene fremgangsmåden til at lave en BookTrailer.","emneLinks":["MyFilm", "Film-X", "https://goo.gl/Xwuq4H"]},
     
     {"overEmne":"Analyse","emneOverskrift":"Vi skal lave et matematikspil, hvor vi øver talmønstre","emneBeskrivelse":"ERSTAT","emneLinks":["Scratch"]},
     
-    {"overEmne":"Programmering","emneOverskrift":"Lav din egen app","emneBeskrivelse":"ERSTAT","emneLinks":["Appshed"]}
+    {"overEmne":"Programmering","emneOverskrift":"Lav din egen app","emneBeskrivelse":"ERSTAT","emneLinks":["Appshed", "https://goo.gl/Xwuq4H"]}
     ]}
  ]
           
