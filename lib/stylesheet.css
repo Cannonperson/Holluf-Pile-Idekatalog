@@ -12,6 +12,8 @@ body{
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis:  auto;
+  width: 100%;
+   
 }
 
 #wrapper{
@@ -58,8 +60,10 @@ body{
 }
 .border-popup {
     position: relative;
+    float: right;
     border-radius: 5px;
-    top: 150;   left: 100%; margin: 60px;
+    top: 150; margin: 60px;
+    width: 50%;
     text-align: center;
 	border: 1px solid #6fee6f;
 	background: #7fff7f;
