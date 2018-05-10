@@ -1,19 +1,32 @@
 <html>
 <head>
     <meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="../lib/jquery-ui.css" rel="stylesheet">
     <link href="../lib/stylesheet.css" rel="stylesheet">
-    
+    <script src="../lib/data.json"></script>
+    <script>
+    function loadLinksFromJson(){
+    for(var i = 0; i < data.classes.length; i++){
+        for(var i2 = 0; i2 < data.classes[i].emner.length; i2++){
+            for(var i3 = 0; i3 < data.classes[i].emner[i2].emneLinks.length; i3++){
+                $('#linkList').append('<li>' + data.classes[i].emner[i2].emneLinks[i3] + '</li>');
+            }
+        }
+    }
+}
+    </script>
     </head>
     
-<body onload="completeLinkList()">
+<body onload="loadLinksFromJson()">
     
     <header>
 	   <nav id="nav-1" width=Window.innerwidth-2>
+            <a class="link-1" href="../menu/folder.html">Folder</a>
+  		    <a class="link-1" href="../menu/kontakt.html">Hvem kan hjælpe?</a>
+  		    <a class="link-1" href="../menu/links.html">Links</a>
             <a class="link-1" href="../index.html">Katalog</a>
-  		    <a class="link-1" href="#">Links</a>
-  		    <a class="link-1" href="#">Hvem kan hjælpe?</a>
-  		    <a class="link-1" href="#">Folder</a>
+            <img src="../lib/images/holluflogo.png" class="logoHjornet">
 	   </nav>
     </header>
     <div>

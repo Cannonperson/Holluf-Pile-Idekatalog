@@ -209,12 +209,12 @@
 .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
 	cursor: pointer;
 }
-.ui-tabs .ui-tabs-panel {
+/*.ui-tabs .ui-tabs-panel {
 	display: block;
 	border-width: 0;
 	padding: 1em 1.4em;
 	background: none;
-}
+}*/
 
 /* Component containers
 ----------------------------------*/
