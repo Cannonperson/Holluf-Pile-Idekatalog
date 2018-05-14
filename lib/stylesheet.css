@@ -34,6 +34,8 @@ body{
   margin: 60px;
   z-index: 100;
 }
+
+/*----------Tabs og accordion----------*/
 .ui-accordion-header{
   outline:none;
 }
@@ -47,7 +49,7 @@ body{
   outline:none;
 }
 
-/* vores inderste knap*/
+/*----------Knapper----------*/
 .btn {
   width: 100%;
   background: #6fee6f;
@@ -68,25 +70,28 @@ body{
   color: #020202
   outline:none;
 }
+
 .autowrap{
   width:40%;
 }
+/*----------Popup boksen----------*/
 .border-popup {
-    position: relative;
-    float: right;
-    border-radius: 5px;
-    top: 52; margin: 60px;
-    width: 40%;
-    text-align: center;
-    
-	 background: #ddffdd;
-   opacity: 0.9;
-	 color: black;
+  position: relative;
+  float: right;
+  border-radius: 5px;
+  top: 52; margin: 60px;
+  width: 40%;
+  text-align: center;  
+	background: #ddffdd;
+  opacity: 0.9;
+	color: black;
   box-shadow: 0 0 25px rgba(40, 47, 60, 0.05), 0 20px 25px rgba(40, 47, 60, 0.05), 0 3px 4px rgba(40, 47, 60, 0.05);
 }
+
 .border-popup a {
   color: black;
 }
+
 .border-popup .boks{
   width: 100%;
   background: #3fbe3f;
@@ -104,44 +109,45 @@ body{
   margin-left: 10px;
 }
 
+/*----------Billeder----------*/
 .logo{
-    width:100%;
-    height: 100%;
-    opacity: 0.1;
-    background-image: url("images/holluflogo.PNG");
-    background-position: center;
-    background-repeat: no-repeat;  
-    position:fixed;
-    z-index: -10;
+  width:100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image: url("images/holluflogo.PNG");
+  background-position: center;
+  background-repeat: no-repeat;  
+  position:fixed;
+  z-index: -10;
+}
+.logoHjornet{
+  margin: 5px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width:62px;
+  height: 62px;
+  opacity: 1;
+  z-index: 10;
 }
 
+/*----------Kontakt----------*/
 #contact-list li img{
-    width: 100px;
-    height: 100px;
-    float: left;
+  width: 100px;
+  height: 100px;
+  float: left;
 }
 
 #contact-list li{
-    clear: left;
+  clear: left;
 }
 
 #contact-list{
-    list-style: none;
+  list-style: none;
 }
 
 #linkList{
-    list-style: none;
-}
-
-.logoHjornet{
-    margin: 5px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width:62px;
-    height: 62px;
-    opacity: 1;
-    z-index: 10;
+  list-style: none;
 }
 
 /*----------Header----------*/
@@ -172,14 +178,14 @@ body{
   padding: 6px 0; 
 }
 
-
+/*----------Canvas----------*/
 #canvas{
-    margin: 0;
+  margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    list-style-type: none;
-    position: absolute;
+  list-style-type: none;
+  position: absolute;
 }
