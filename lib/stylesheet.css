@@ -34,6 +34,18 @@ body{
   margin: 60px;
   z-index: 100;
 }
+.ui-accordion-header{
+  outline:none;
+}
+#classTab0 {
+  outline:none;
+}
+#classTab1 {
+  outline:none;
+}
+#classTab2 {
+  outline:none;
+}
 
 /* vores inderste knap*/
 .btn {
@@ -48,11 +60,13 @@ body{
   padding: 5px 5px 5px 5px;
   text-decoration: none;
   cursor: pointer;
+  outline:none;
 }
 
 .btn:hover {
   background: #7fff7f;
   color: #020202
+  outline:none;
 }
 .autowrap{
   width:40%;
