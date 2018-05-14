@@ -39,12 +39,21 @@ body{
 .ui-accordion-header{
   outline:none;
 }
+
+.ui-tabs .ui-tabs-nav {
+  padding: 0 !important;
+}
+
+
 #classTab0 {
   outline:none;
 }
+
+
 #classTab1 {
   outline:none;
 }
+
 #classTab2 {
   outline:none;
 }
@@ -120,6 +129,7 @@ body{
   position:fixed;
   z-index: -10;
 }
+
 .logoHjornet{
   margin: 5px;
   position: absolute;
@@ -156,6 +166,7 @@ body{
   padding: 24px;
   text-align: center;
 }
+
 #nav-1 {
   background: #3fbe3f;
 }
