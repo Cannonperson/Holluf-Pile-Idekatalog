@@ -1,19 +1,21 @@
 html{
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   height: 100%;
+  background-color: white;
 }
+
 body{
   height: 100vh;
   display: flex;
   flex-direction: column;
   margin: 0;
 }
+
 .maincontent{
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis:  auto;
   width: 100%;
-   
 }
 
 #wrapper{
@@ -24,8 +26,9 @@ body{
 
 .background{
   position: absolute;
-    
+  
 }
+
 .hide{
   visibility: hidden}
 
@@ -95,7 +98,7 @@ body{
   width: 40%;
   text-align: center;  
 	background: #ddffdd;
-  opacity: 0.9;
+  opacity: 1;
 	color: black;
   box-shadow: 0 0 25px rgba(40, 47, 60, 0.05), 0 20px 25px rgba(40, 47, 60, 0.05), 0 3px 4px rgba(40, 47, 60, 0.05);
 }
@@ -113,8 +116,8 @@ body{
   padding-bottom: 10px;
   color: white;
   font-weight:normal;
-
 }
+
 .border-popup .pboks {
   text-align: justify;
   margin-right: 10px;
@@ -195,6 +198,7 @@ body{
   padding: 20px 0;
   margin: 0 20px;
 }
+
 .link-1:hover {
   border-top: 4px solid #ffffff;
   border-bottom: 4px solid #ffffff;
