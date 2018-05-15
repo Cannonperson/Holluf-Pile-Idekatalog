@@ -121,6 +121,15 @@ body{
   margin-left: 10px;
 }
 
+#Menu-Description{
+    color: #bbddbb;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    top: 25px;
+    margin: 0;
+}
+
 /*----------Billeder----------*/
 .logo{
   width:100%;
