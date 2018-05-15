@@ -2,7 +2,7 @@
 //{"overEmne":"ERSTAT","emneOverskrift":"ERSTAT","emneBeskrivelse":"ERSTAT","emneLinks":["ERSTAT"]},
 
 var data = {classes:[{"emner":[
-    {"overEmne":"Uni-Login","emneOverskrift":"Blive dus med uni-login","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Google drev", "https://goo.gl/Xwuq4H"]},
+    {"overEmne":"Uni-Login","emneOverskrift":"Blive dus med uni-login","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Google d    rev", "https://goo.gl/Xwuq4H"]},
     
     {"overEmne":"Uni-Login","emneOverskrift":"Kendskab til skolens bærbare udstyr","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Chromebooks og iPads", "https://goo.gl/Xwuq4H"]},
     
@@ -31,7 +31,8 @@ var data = {classes:[{"emner":[
     
      {"overEmne":"Kreativitet","emneOverskrift":"Lav din egen musik","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Soundation", "https://goo.gl/Xwuq4H"]},
      
-     {"overEmne":"Kreativitet","emneOverskrift":"Lav en film(lommefilm)","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Wevideo/youtube", "https://goo.gl/Xwuq4H"]},
+     {"overEmne":"Kreativitet","emneOverskrift":"Lav en film(lommefilm)","emneBeskrivelse":"Istedet for at præsentere en bog på skrift, kan du lave en book trailer, hvor du præsenterer din bog i form af en kort film","emneLinks":["Wevideo/youtube", "https://goo.gl/Xwuq4H"]},
+      {"overEmne":"Kreativitet","emneOverskrift":"Lav en boganmeldelse","emneBeskrivelse":"Istedet for at præsentere en bog på skrift, kan du lave en book trailer, hvor du præsenterer din bog i form af en kort film","emneLinks":["Wevideo/youtube", "https://goo.gl/Xwuq4H"]},
      
      {"overEmne":"Præsentation","emneOverskrift":"Vis Hvordan du tænker i matematik","emneBeskrivelse":"Beskrivelse af indhold","emneLinks":["Screencast-o-matic", "https://goo.gl/Xwuq4H"]},
      
