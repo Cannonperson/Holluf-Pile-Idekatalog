@@ -3,25 +3,25 @@
     <meta charset="utf-8">
 	<title></title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="./lib/easeljs-0.8.2.min.js"></script>
-	<script src="./lib/tweenjs-0.5.1.min.js"></script>
-    <script src="./lib/external/jquery/jquery.js"></script>
-    <script src="./lib/myJs.js"></script>
-    <script src="./lib/jquery-ui.js"></script>
-    <script src="./lib/data.json"></script>
-    <link href="./lib/jquery-ui.css" rel="stylesheet">
-    <link href="lib/stylesheet.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto" rel="stylesheet">
+	<script src="./assets/js/easeljs-0.8.2.min.js"></script>
+	<script src="./assets/js/tweenjs-0.5.1.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/jquery-ui.js"></script>
+    <script src="./data.json"></script>
+    <link href="./assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="./assets/css/stylesheet.css" rel="stylesheet">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body onload="init()">
 <header>
 	<nav id="nav-1" width=Window.innerwidth-2>
-  		<a class="link-1" href="./lib/Kopi%20af%20Folder%20It-vejledning%20maj%202018.pdf"><img src="./lib/images/holluflogo.png" alt="Statside" class="logoHjornet">Folder</a>
+  		<a class="link-1" href="./assets/Kopi%20af%20Folder%20It-vejledning%20maj%202018.pdf"><img src="./assets/images/holluflogo.png" alt="Statside" class="logoHjornet">Folder</a>
   		<a class="link-1" href="./menu/kontakt.html">Hvem kan hjælpe?</a>
   		<a class="link-1" href="./menu/links.html">Links</a>
         <a class="link-1" href="index.html">Startside</a>
-        <a href="index.html"> <img src="./lib/images/holluflogo.png" alt="Statside" class="logoHjornet">
+        <a href="index.html"> <img src="./assets/images/holluflogo.png" alt="Statside" class="logoHjornet">
        </a>
         <p id="Menu-Description">Holluf Pile Skole IT idekatalog 
        </p>
@@ -32,9 +32,9 @@
     <div id="wrapper">
     <div id="tabs" class="content">
         <ul>
-            <li><a href="#class0" id="classTab0">1.-3. Klasse</a></li>
-            <li><a href="#class1" id="classTab1">4.-6. Klasse</a></li>
-            <li><a href="#class2" id="classTab2">7.-9. Klasse</a></li>
+            <li class="tab-item"><a href="#class0" id="classTab0">1.-3. Klasse</a></li>
+            <li class="tab-item"><a href="#class1" id="classTab1">4.-6. Klasse</a></li>
+            <li class="tab-item"><a href="#class2" id="classTab2">7.-9. Klasse</a></li>
         </ul>
         <div class="accordion" id="class0">
         </div>
@@ -45,7 +45,7 @@
     </div>
         
 
-    <canvas id="canvas" class="background" width=Window.innerwidth-2 height=window.innerheight></canvas>
+    <canvas id="canvas" class="background" width="100%" height="100%"></canvas>
     </div>
 </section>
 <!--

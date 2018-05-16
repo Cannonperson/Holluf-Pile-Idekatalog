@@ -2,15 +2,15 @@
 <head>
     <meta charset="utf-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="../lib/jquery-ui.css" rel="stylesheet">
-    <link href="../lib/stylesheet.css" rel="stylesheet">
-    <script src="../lib/data.json"></script>
+    <link href="../assets/css/jquery-ui.css" rel="stylesheet">
+    <link href="../assets/css/stylesheet.css" rel="stylesheet">
+    <script src="../data.json"></script>
     <script>
     function loadLinksFromJson(){
     for(var i = 0; i < data.classes.length; i++){
         for(var i2 = 0; i2 < data.classes[i].emner.length; i2++){
             for(var i3 = 0; i3 < data.classes[i].emner[i2].emneLinks.length; i3++){
-                $('#linkList').append('<li>' + data.classes[i].emner[i2].emneLinks[i3] + '</li>');
+                $('#linkList').append('<li class="linksInMenu">' + data.classes[i].emner[i2].emneLinks[i3] + '</li>');
             }
         }
     }
@@ -22,11 +22,11 @@
     
     <header>
 	   <nav id="nav-1" width=Window.innerwidth-2>
-            <a class="link-1" href="../lib/Kopi%20af%20Folder%20It-vejledning%20maj%202018.pdf">Folder</a>
+            <a class="link-1" href="../assets/Kopi%20af%20Folder%20It-vejledning%20maj%202018.pdf">Folder</a>
   		    <a class="link-1" href="../menu/kontakt.html">Hvem kan hjælpe?</a>
   		    <a class="link-1" href="../menu/links.html">Links</a>
             <a class="link-1" href="../index.html">Startside</a>
-            <a href="../index.html"> <img src="../lib/images/holluflogo.png" alt="Statside" class="logoHjornet">
+            <a href="../index.html"> <img src="../assets/images/holluflogo.png" alt="Statside" class="logoHjornet">
        </a>
            <p id="Menu-Description">Holluf Pile Skole IT idekatalog 
        </p>
