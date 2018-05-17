@@ -10,7 +10,7 @@
     for(var i = 0; i < data.classes.length; i++){
         for(var i2 = 0; i2 < data.classes[i].emner.length; i2++){
             for(var i3 = 0; i3 < data.classes[i].emner[i2].emneLinks.length; i3++){
-                $('#linkList').append('<li class="linksInMenu">' + data.classes[i].emner[i2].emneLinks[i3] + '</li>');
+                $('#linkList').append('<li class="linksInMenu"> <a target="_blank" href="'+ data.classes[i].emner[i2].emneLinks[i3] +'">' + data.classes[i].emner[i2].emneLinks[i3] + '</a></li>');
             }
         }
     }
