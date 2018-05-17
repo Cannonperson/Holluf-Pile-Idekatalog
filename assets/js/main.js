@@ -197,7 +197,9 @@ function loadDataFromJson(selectedClass){
     $('#class1').accordion({ collapsible: true });
     $('#class2').accordion({ collapsible: true });
     
-    $('#class'+selectedClass + ' h3 :eq(0)').click();
+    $('#class0 h3 :eq(0)').click();
+    $('#class1 h3 :eq(0)').click();
+    $('#class2 h3 :eq(0)').click();
     
 $(function(){
     $('.emneButton').on('click',function(e){
