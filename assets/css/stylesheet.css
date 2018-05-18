@@ -37,8 +37,9 @@ body{
 .content{
   position: absolute;
   margin-top: 60px;
-  margin-left: 16%;
+  margin-left: 20%;
   margin-right: 16%;
+  padding-right: 0;
   z-index: 100;
   background: #fff;
   box-shadow: 0 0 25px rgba(40, 47, 60, 0.05), 0 20px 25px rgba(40, 47, 60, 0.05), 0 3px 4px rgba(40, 47, 60, 0.05);
@@ -48,7 +49,6 @@ body{
 /*----------Tabs og accordion----------*/
 .accordion {
   width: 367px;
-  
 }
 
 .tab-item {
@@ -116,7 +116,7 @@ body{
   float: left;
   border-radius: 5px;
   z-index: 100;
-  top: 52; margin-top: 56px; margin-left: 40%; 
+  top: 52; margin-top: 56px; margin-left: 50%; 
   width: 40%;
   text-align: center;  
 	background: #ddffdd;
