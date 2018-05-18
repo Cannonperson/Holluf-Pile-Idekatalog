@@ -99,12 +99,15 @@ body{
 
 .btn:hover {
   background: #7fff7f;
-  color: #020202
+  color: #020202;
   outline:none;
 }
 .btn:focus{
-    background-color: #3fbe3f;
-    color: white;
+    background-color: #7fff7f;
+    color: #020202;
+    border: 2px;
+    border-style: none solid none solid; 
+    border-color: #3fbe3f;
 }
 
 .autowrap{
