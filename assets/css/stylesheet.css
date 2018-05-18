@@ -119,7 +119,9 @@ body{
   float: left;
   border-radius: 5px;
   z-index: 100;
-  top: 52; margin-top: 56px; margin-left: 50%; 
+  top: 52; 
+  margin-top: 56px; 
+  margin-left: 50%; 
   width: 40%;
   text-align: center;  
 	background: #ddffdd;
