@@ -102,6 +102,10 @@ body{
   color: #020202
   outline:none;
 }
+.btn:focus{
+    background-color: #3fbe3f;
+    color: white;
+}
 
 .autowrap{
   width:40%;
